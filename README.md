@@ -1,2 +1,0 @@
-# GameCraftJS
-Fun with JS

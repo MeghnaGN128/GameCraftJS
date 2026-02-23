@@ -1,0 +1,90 @@
+*{
+    padding : 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://cdn.hashnode.com/res/hashnode/image/upload/v1617369745227/uUxTNMN2L.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#heading{
+   color: rgb(25, 131, 184);
+   font-size: 50px;
+}
+
+main{
+    background: rgba(191, 171, 227, 0.2);
+    padding: 4rem;
+    border-radius: 10vmin;
+    text-align: center;
+    box-shadow: 0 0 3vmin rgba(0,0,0,0.5);
+    width: fit-content;
+    margin: 3rem auto;   
+}
+
+
+.choice{
+     padding: 0.5rem;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+     border-radius: 50%;
+}
+ img{
+      width: 250px;
+    height: 250px;
+    object-fit: cover;
+     border-radius: 50%;
+ }
+
+ .choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;   
+ }
+
+ .msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;          
+    margin-top: 2rem;
+    font-size: 1.5rem
+ }
+ .score-board{
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;         
+    margin-top: 1rem;
+    font-size: 1.5rem
+    
+ }
+
+ #msg{
+    display: flexbox;
+    background-color: rgb(100, 42, 155);
+    color: aliceblue;
+    padding :1rem;
+    border-radius: 20%;
+ }
+
+ #msg:hover{
+background-color: rgb(168, 122, 229);
+border-radius: 20%;
+ }
